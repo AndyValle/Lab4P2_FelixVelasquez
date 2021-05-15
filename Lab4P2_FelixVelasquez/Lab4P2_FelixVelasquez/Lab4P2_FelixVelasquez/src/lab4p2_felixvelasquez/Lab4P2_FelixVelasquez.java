@@ -26,12 +26,12 @@ public class Lab4P2_FelixVelasquez {
                 switch (opcion) {
                     case 1: {
                         int opcion2 = 0;
-                        while (opcion2 != 5) {
+                        while (opcion2 != 4) {
                             System.out.printf("%s\n", " 1. Crear Desarrolador ");
                             System.out.printf("%s\n", " 2. Crear Director");
                             System.out.printf("%s\n", " 3. Crear Consolador ");
-                            System.out.printf("%s\n", " 4. Eliminar Desarrollador ");
-                            System.out.printf("%s\n", " 5. Salir ");
+                           
+                            System.out.printf("%s\n", " 4. Salir ");
                             opcion2 = lea.nextInt();
                             switch (opcion2) {
                                 case 1: {
@@ -534,14 +534,14 @@ public class Lab4P2_FelixVelasquez {
                                                 tempP = lea.nextInt();
                                                 if (tempP == passw[i]) {
                                                     int opcion3 = 0;
-                                                    while (opcion3 != 3) {
+                                                    while (opcion3 != 5) {
                                                         System.out.printf("%s\n", "* * * * * * * * * * MENU * * * * * * * * * *");
 
                                                         System.out.printf("%s\n", " 1. Listar Consultores ");
                                                         System.out.printf("%s\n", " 2. Modificar Consultores ");
                                                         System.out.printf("%s\n", " 3. Eliminar Consultores ");
                                                         System.out.printf("%s\n", " 4. Lista de proyectos asignados  ");
-                                                        System.out.printf("%s\n", " 4 Salir ");
+                                                        System.out.printf("%s\n", " 5. Salir ");
                                                         System.out.printf("%s\n", " Que ejercicio quiere ejecutar: ");
                                                         opcion3 = lea.nextInt();
                                                         switch (opcion3) {
@@ -731,7 +731,7 @@ public class Lab4P2_FelixVelasquez {
                                         }
                                     }
                                     if (existente == false) {
-                                        System.out.println("La Franquisia no existe");
+                                        System.out.println("el desarrolador no existe");
                                     }
 
                                 }
